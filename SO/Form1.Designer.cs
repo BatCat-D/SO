@@ -36,14 +36,14 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -75,7 +75,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.button1.Location = new System.Drawing.Point(268, 302);
+            this.button1.Location = new System.Drawing.Point(276, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 48);
             this.button1.TabIndex = 3;
@@ -87,7 +87,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(193, 127);
+            this.label1.Location = new System.Drawing.Point(205, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(273, 32);
             this.label1.TabIndex = 2;
@@ -142,6 +142,22 @@
             this.panel1.Size = new System.Drawing.Size(206, 127);
             this.panel1.TabIndex = 1;
             // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.panel9.Location = new System.Drawing.Point(189, 16);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(14, 127);
+            this.panel9.TabIndex = 11;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.panel7.Location = new System.Drawing.Point(-166, 29);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(206, 127);
+            this.panel7.TabIndex = 10;
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
@@ -168,13 +184,13 @@
             this.panel2.Size = new System.Drawing.Size(206, 127);
             this.panel2.TabIndex = 1;
             // 
-            // panel4
+            // panel8
             // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(187, 378);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(311, 10);
-            this.panel4.TabIndex = 6;
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.panel8.Location = new System.Drawing.Point(4, 10);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(14, 127);
+            this.panel8.TabIndex = 11;
             // 
             // panel6
             // 
@@ -184,29 +200,13 @@
             this.panel6.Size = new System.Drawing.Size(206, 127);
             this.panel6.TabIndex = 10;
             // 
-            // panel7
+            // panel4
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.panel7.Location = new System.Drawing.Point(-166, 29);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(206, 127);
-            this.panel7.TabIndex = 10;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.panel8.Location = new System.Drawing.Point(4, 10);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(14, 127);
-            this.panel8.TabIndex = 11;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.panel9.Location = new System.Drawing.Point(189, 16);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(14, 127);
-            this.panel9.TabIndex = 11;
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(187, 378);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(311, 10);
+            this.panel4.TabIndex = 6;
             // 
             // panel10
             // 
@@ -263,7 +263,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SO.Properties.Resources.Icon;
-            this.pictureBox2.Location = new System.Drawing.Point(269, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(281, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(126, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
