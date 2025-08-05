@@ -36,9 +36,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SO.Properties.Resources._20250309_032255;
-            this.pictureBox1.Location = new System.Drawing.Point(1017, 551);
+            this.pictureBox1.Location = new System.Drawing.Point(872, 448);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(73, 52);
+            this.pictureBox1.Size = new System.Drawing.Size(63, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -46,23 +47,26 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.White;
-            this.panel16.Location = new System.Drawing.Point(-4, 114);
+            this.panel16.Location = new System.Drawing.Point(-3, 93);
+            this.panel16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1094, 27);
+            this.panel16.Size = new System.Drawing.Size(938, 22);
             this.panel16.TabIndex = 3;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(1088, 602);
+            this.ClientSize = new System.Drawing.Size(933, 489);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "واجهة المستخدم";
             this.Load += new System.EventHandler(this.Form2_Load);
