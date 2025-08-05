@@ -36,6 +36,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -43,6 +44,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
@@ -50,13 +52,11 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel10.SuspendLayout();
@@ -150,6 +150,21 @@
             this.panel1.Size = new System.Drawing.Size(206, 127);
             this.panel1.TabIndex = 1;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.label7.Location = new System.Drawing.Point(46, 34);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(74, 32);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "مساعدة";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label7.MouseLeave += new System.EventHandler(this.label7_MouseLeave);
+            this.label7.MouseHover += new System.EventHandler(this.label7_MouseHover);
+            // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
@@ -208,6 +223,21 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(206, 127);
             this.panel6.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.label5.Location = new System.Drawing.Point(100, 34);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(52, 32);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "خروج";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5.MouseLeave += new System.EventHandler(this.label5_MouseLeave);
+            this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
             // 
             // panel4
             // 
@@ -269,21 +299,6 @@
             this.panel15.Size = new System.Drawing.Size(206, 127);
             this.panel15.TabIndex = 10;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.label5.Location = new System.Drawing.Point(100, 34);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 32);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "خروج";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            this.label5.MouseLeave += new System.EventHandler(this.label5_MouseLeave);
-            this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
-            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.White;
@@ -342,21 +357,6 @@
             this.label6.Text = "اسم المستخدم او كلمة المرور خاطئة";
             this.label6.Visible = false;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.label7.Location = new System.Drawing.Point(46, 34);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 32);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "مساعدة";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            this.label7.MouseLeave += new System.EventHandler(this.label7_MouseLeave);
-            this.label7.MouseHover += new System.EventHandler(this.label7_MouseHover);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -386,6 +386,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "واجهة تسجيل الدخول";
             this.Load += new System.EventHandler(this.Form1_Load);
