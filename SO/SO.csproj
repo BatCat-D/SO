@@ -102,6 +102,21 @@
   <ItemGroup>
     <None Include="Resources\Close.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000004f4861f9a27f91785f7e5363.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000b89461f98d19c1488291b056.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000005ee061f99be5aae5aa7f376c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000420061fab81584fff9ec1412.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000001af061f5b7c675bf2bd22313.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
