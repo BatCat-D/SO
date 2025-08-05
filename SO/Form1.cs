@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace SO
 {
@@ -66,5 +67,25 @@ namespace SO
         {
             label7.ForeColor = Color.FromArgb(32, 166, 60);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text=="كنترول" && textBox2.Text=="control" )
+            {
+                Form2  frm = new Form2();
+                frm.Show();
+                this.Hide();
+            }
+            else
+            {
+                label6.Show();
+            }
+        }
+         
     }
 }
