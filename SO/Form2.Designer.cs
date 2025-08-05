@@ -30,11 +30,11 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnShow = new System.Windows.Forms.Button();
             this.btnChange = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnR = new System.Windows.Forms.Button();
@@ -65,6 +65,14 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(1094, 38);
             this.panel16.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.panel2.Location = new System.Drawing.Point(0, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1094, 10);
+            this.panel2.TabIndex = 5;
             // 
             // btnShow
             // 
@@ -108,14 +116,6 @@
             this.panel1.Size = new System.Drawing.Size(151, 141);
             this.panel1.TabIndex = 1;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.panel2.Location = new System.Drawing.Point(0, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1094, 10);
-            this.panel2.TabIndex = 5;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
@@ -143,7 +143,7 @@
             this.btnR.Name = "btnR";
             this.btnR.Size = new System.Drawing.Size(131, 48);
             this.btnR.TabIndex = 4;
-            this.btnR.Text = "طباعة تقرير";
+            this.btnR.Text = "طباعة تقارير";
             this.btnR.UseVisualStyleBackColor = true;
             // 
             // Changes
