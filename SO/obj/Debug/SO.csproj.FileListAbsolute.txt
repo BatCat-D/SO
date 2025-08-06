@@ -46,3 +46,4 @@ C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.Properties.Resources.resources
 C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.csproj.GenerateResource.Cache
 C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.exe
 C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.pdb
+C:\Users\bda79\Documents\GitHub\SO\SO\obj\Debug\SO.Form3.resources

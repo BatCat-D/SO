@@ -39,6 +39,7 @@
             this.Changes = new System.Windows.Forms.Label();
             this.labWelcome = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.labExit = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -46,7 +47,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labExit = new System.Windows.Forms.Label();
             this.panel16.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -135,7 +135,7 @@
             this.btnR.Name = "btnR";
             this.btnR.Size = new System.Drawing.Size(131, 48);
             this.btnR.TabIndex = 4;
-            this.btnR.Text = "طباعة تقارير";
+            this.btnR.Text = " تقارير الدرجات";
             this.btnR.UseVisualStyleBackColor = true;
             // 
             // Changes
@@ -154,7 +154,7 @@
             this.labWelcome.AutoSize = true;
             this.labWelcome.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labWelcome.ForeColor = System.Drawing.Color.White;
-            this.labWelcome.Location = new System.Drawing.Point(411, 192);
+            this.labWelcome.Location = new System.Drawing.Point(416, 192);
             this.labWelcome.Name = "labWelcome";
             this.labWelcome.Size = new System.Drawing.Size(193, 32);
             this.labWelcome.TabIndex = 21;
@@ -169,6 +169,18 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 32);
             this.label1.TabIndex = 21;
+            // 
+            // labExit
+            // 
+            this.labExit.AutoSize = true;
+            this.labExit.BackColor = System.Drawing.Color.White;
+            this.labExit.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
+            this.labExit.Location = new System.Drawing.Point(975, 561);
+            this.labExit.Name = "labExit";
+            this.labExit.Size = new System.Drawing.Size(52, 32);
+            this.labExit.TabIndex = 22;
+            this.labExit.Text = "خروج";
             // 
             // pictureBox6
             // 
@@ -244,18 +256,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // labExit
-            // 
-            this.labExit.AutoSize = true;
-            this.labExit.BackColor = System.Drawing.Color.White;
-            this.labExit.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.labExit.Location = new System.Drawing.Point(975, 551);
-            this.labExit.Name = "labExit";
-            this.labExit.Size = new System.Drawing.Size(52, 32);
-            this.labExit.TabIndex = 22;
-            this.labExit.Text = "خروج";
             // 
             // Form2
             // 
