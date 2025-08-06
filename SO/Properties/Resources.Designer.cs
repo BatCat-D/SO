@@ -93,6 +93,56 @@ namespace SO.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap file_000000001af061f5b7c675bf2bd22313 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000001af061f5b7c675bf2bd22313", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_00000000420061fab81584fff9ec1412 {
+            get {
+                object obj = ResourceManager.GetObject("file_00000000420061fab81584fff9ec1412", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000004f4861f9a27f91785f7e5363 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000004f4861f9a27f91785f7e5363", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000005ee061f99be5aae5aa7f376c {
+            get {
+                object obj = ResourceManager.GetObject("file_000000005ee061f99be5aae5aa7f376c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_00000000b89461f98d19c1488291b056 {
+            get {
+                object obj = ResourceManager.GetObject("file_00000000b89461f98d19c1488291b056", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icon {
             get {
                 object obj = ResourceManager.GetObject("Icon", resourceCulture);
