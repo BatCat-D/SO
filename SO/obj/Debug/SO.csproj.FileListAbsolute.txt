@@ -36,3 +36,13 @@ C:\Users\sam\Documents\BAT\SO\SO\obj\Debug\SO.Properties.Resources.resources
 C:\Users\sam\Documents\BAT\SO\SO\obj\Debug\SO.csproj.GenerateResource.Cache
 C:\Users\sam\Documents\BAT\SO\SO\obj\Debug\SO.exe
 C:\Users\sam\Documents\BAT\SO\SO\obj\Debug\SO.pdb
+C:\Users\sam\Documents\GitHub\SO\SO\bin\Debug\SO.exe.config
+C:\Users\sam\Documents\GitHub\SO\SO\bin\Debug\SO.exe
+C:\Users\sam\Documents\GitHub\SO\SO\bin\Debug\SO.pdb
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.csprojResolveAssemblyReference.cache
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.Form1.resources
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.Form2.resources
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.Properties.Resources.resources
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.csproj.GenerateResource.Cache
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.exe
+C:\Users\sam\Documents\GitHub\SO\SO\obj\Debug\SO.pdb

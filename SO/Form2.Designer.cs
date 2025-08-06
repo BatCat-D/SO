@@ -50,9 +50,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SO.Properties.Resources._20250309_032255;
-            this.pictureBox1.Location = new System.Drawing.Point(969, 550);
+            this.pictureBox1.Location = new System.Drawing.Point(831, 447);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(73, 52);
+            this.pictureBox1.Size = new System.Drawing.Size(63, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -61,76 +62,87 @@
             // 
             this.panel16.BackColor = System.Drawing.Color.White;
             this.panel16.Controls.Add(this.panel2);
-            this.panel16.Location = new System.Drawing.Point(-4, 103);
+            this.panel16.Location = new System.Drawing.Point(-3, 84);
+            this.panel16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1094, 38);
+            this.panel16.Size = new System.Drawing.Size(938, 31);
             this.panel16.TabIndex = 3;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.panel2.Location = new System.Drawing.Point(0, 12);
+            this.panel2.Location = new System.Drawing.Point(0, 10);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1094, 10);
+            this.panel2.Size = new System.Drawing.Size(938, 8);
             this.panel2.TabIndex = 5;
             // 
             // btnShow
             // 
             this.btnShow.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.btnShow.Location = new System.Drawing.Point(799, 426);
+            this.btnShow.Location = new System.Drawing.Point(685, 346);
+            this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(131, 48);
+            this.btnShow.Size = new System.Drawing.Size(112, 39);
             this.btnShow.TabIndex = 4;
             this.btnShow.Text = "عرض الدرجات";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // btnChange
             // 
             this.btnChange.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChange.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.btnChange.Location = new System.Drawing.Point(568, 426);
+            this.btnChange.Location = new System.Drawing.Point(487, 346);
+            this.btnChange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(131, 48);
+            this.btnChange.Size = new System.Drawing.Size(112, 39);
             this.btnChange.TabIndex = 4;
             this.btnChange.Text = "تعديل الدرجات";
             this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.btnAdd.Location = new System.Drawing.Point(333, 426);
+            this.btnAdd.Location = new System.Drawing.Point(285, 346);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(131, 48);
+            this.btnAdd.Size = new System.Drawing.Size(112, 39);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "اضافة درجات";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Location = new System.Drawing.Point(439, 48);
+            this.panel1.Location = new System.Drawing.Point(376, 39);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(151, 141);
+            this.panel1.Size = new System.Drawing.Size(129, 115);
             this.panel1.TabIndex = 1;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Location = new System.Drawing.Point(3, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(144, 135);
+            this.panel3.Size = new System.Drawing.Size(123, 110);
             this.panel3.TabIndex = 1;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::SO.Properties.Resources.Icon;
-            this.pictureBox3.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox3.Location = new System.Drawing.Point(9, 7);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(123, 116);
+            this.pictureBox3.Size = new System.Drawing.Size(105, 94);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -139,21 +151,23 @@
             // 
             this.btnR.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnR.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.btnR.Location = new System.Drawing.Point(90, 426);
+            this.btnR.Location = new System.Drawing.Point(77, 346);
+            this.btnR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnR.Name = "btnR";
-            this.btnR.Size = new System.Drawing.Size(131, 48);
+            this.btnR.Size = new System.Drawing.Size(112, 39);
             this.btnR.TabIndex = 4;
             this.btnR.Text = "طباعة تقارير";
             this.btnR.UseVisualStyleBackColor = true;
+            this.btnR.Click += new System.EventHandler(this.btnR_Click);
             // 
             // Changes
             // 
             this.Changes.AutoSize = true;
             this.Changes.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Changes.ForeColor = System.Drawing.Color.White;
-            this.Changes.Location = new System.Drawing.Point(439, 561);
+            this.Changes.Location = new System.Drawing.Point(376, 456);
             this.Changes.Name = "Changes";
-            this.Changes.Size = new System.Drawing.Size(165, 32);
+            this.Changes.Size = new System.Drawing.Size(141, 26);
             this.Changes.TabIndex = 5;
             this.Changes.Text = "مزامنة بيانات الطلاب";
             // 
@@ -162,19 +176,19 @@
             this.labWelcome.AutoSize = true;
             this.labWelcome.Font = new System.Drawing.Font("Cairo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labWelcome.ForeColor = System.Drawing.Color.White;
-            this.labWelcome.Location = new System.Drawing.Point(422, 189);
+            this.labWelcome.Location = new System.Drawing.Point(362, 154);
             this.labWelcome.Name = "labWelcome";
-            this.labWelcome.Size = new System.Drawing.Size(193, 32);
+            this.labWelcome.Size = new System.Drawing.Size(162, 26);
             this.labWelcome.TabIndex = 5;
             this.labWelcome.Text = "مرحباً في نظام الكنترول";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(166)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(1039, 602);
+            this.ClientSize = new System.Drawing.Size(891, 489);
             this.Controls.Add(this.labWelcome);
             this.Controls.Add(this.Changes);
             this.Controls.Add(this.btnR);
@@ -184,6 +198,7 @@
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Events - All Examples</title>
+  <script>
+    // Example 1: تغيير النص عند الضغط على الزر
+    function changetext() {
+      document.getElementById("p1").innerHTML = "Hi, This is JavaScript!";
+    }
+
+    // Example 2: رسالة ترحيب عند تحميل الصفحة
+    function welcomeMessage() {
+      alert('Welcome to JavaScript');
+    }
+
+    // Example 3: تغيير صورة عند تمرير الماوس
+    function changeimage() {
+      document.getElementById('img1').src = "pic_bulbon.gif";
+    }
+    function backimage() {
+      document.getElementById('img1').src = "pic_bulboff.gif";
+    }
+
+    // Example 4: تغيير لون الخلفية عند التركيز على الحقل
+    function changeColor(x) {
+      x.style.background = "yellow";
+    }
+
+    // Example 5: التحقق من صحة النموذج
+    function validate() {
+      var x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+    }
+
+    // Example 6: تحويل النص إلى حروف كبيرة عند تغييره
+    function upperCase() {
+      var x = document.getElementById("fname");
+      x.value = x.value.toUpperCase();
+    }
+  </script>
+</head>
+
+<body onload="welcomeMessage()">
+  <h1>JavaScript Events - Combined Examples</h1>
+
+  <!-- Example 1 -->
+  <section>
+    <h2>مثال 1: تغيير النص عند الضغط على الزر</h2>
+    <p id="p1">Welcome</p>
+    <button onclick="changetext()">Click Me</button>
+  </section>
+
+  <hr>
+
+  <!-- Example 2 -->
+  <section>
+    <h2>مثال 2: عرض رسالة عند تحميل الصفحة</h2>
+    <p>هذه الرسالة تظهر تلقائيًا عند تحميل الصفحة.</p>
+  </section>
+
+  <hr>
+
+  <!-- Example 3 -->
+  <section>
+    <h2>مثال 3: تغيير صورة عند المرور عليها</h2>
+    <img id="img1" src="pic_bulboff.gif"
+         onmouseover="changeimage()"
+         onmouseout="backimage()"
+         alt="Light Bulb">
+  </section>
+
+  <hr>
+
+  <!-- Example 4 -->
+  <section>
+    <h2>مثال 4: تغيير لون خلفية مربع النص عند التركيز</h2>
+    <input type="text" onfocus="changeColor(this)">
+  </section>
+
+  <hr>
+
+  <!-- Example 5 -->
+  <section>
+    <h2>مثال 5: التحقق من أن الاسم غير فارغ قبل الإرسال</h2>
+    <form name="myForm" onsubmit="return validate()">
+      Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <hr>
+
+  <!-- Example 6 -->
+  <section>
+    <h2>مثال 6: تحويل النص إلى أحرف كبيرة عند تغييره</h2>
+    Enter your name: <input type="text" id="fname" onchange="upperCase()">
+  </section>
+</body>
+</html>
